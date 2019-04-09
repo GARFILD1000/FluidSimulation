@@ -1,0 +1,21 @@
+drop		problem: the splash of a liquid drop
+1.0		xlength: domain size in x-direction
+1.0		ylength: domain size in y-direction
+0.02		delt: time stepsize
+0.2             tau:  safety factor for time stepsize control
+1		N: number of particlelines
+6		itermax: maximal number of pressure iterations in one time step
+0.5		eps : stopping tolerance for pressure iteration
+1.7		omg : relaxation parameter for SOR iteration
+0.5		gamma: upwind differencing factor   
+100	       	Re: Reynolds number
+1.0		Pr: Prandtl number
+0.0    		beta: coefficient of volume expansion
+0.0		GX:            
+-4.0		GY: volume forces, e.g. gravity
+0.0		UI:
+0.0		VI: initial values
+1		wW: flags for boundary conditions
+1		wO:   1 = slip         3 = inflow/outflow
+3		wN:   2 = no-slip      4 = periodic
+1		wS:  

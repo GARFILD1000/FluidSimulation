@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="FluidDynamics" targetName="FluidDynamics" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d3307216-6271-4baf-90cd-32b5c674cc90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Fluid Dynamics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/8.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/8.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/81.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/81.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/82.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/82.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/83.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/83.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/84.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/84.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/85.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/85.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/8edge.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/8edge.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/8updown.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/8updown.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/arc.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/arc.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/barrier.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/barrier.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/bigfontan.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/bigfontan.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/bottle.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/bottle.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/bulk.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/bulk.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/bulk3.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/bulk3.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/cmp.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/cmp.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/crater.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/crater.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/cunami.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/cunami.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/cupdrop.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/cupdrop.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/damb.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/damb.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/down.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/down.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/e.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/e.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/ee.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/ee.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/emptybig.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/emptybig.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/emptybig2013-06-15 23_36_23.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/emptybig2013-06-15 23_36_23.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/emptysmall.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/emptysmall.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/fill.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/fill.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/flats.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/flats.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/flats2.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/flats2.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/flowdown.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/flowdown.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/fly.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/fly.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/fontan.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/fontan.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/gate.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/gate.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/go.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/go.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/grav.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/grav.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/height.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/height.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/height2.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/height2.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/house.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/house.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/hsphere.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/hsphere.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/longway.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/longway.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/longway2.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/longway2.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/middle.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/middle.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/nogravity.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/nogravity.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/obstacles.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/obstacles.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/penek.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/penek.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/pipe.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/pipe.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/pipe2.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/pipe2.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/pipetest.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/pipetest.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/r1.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/r1.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/ring.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/ring.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/ring2.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/ring2.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/road.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/road.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/rolling.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/rolling.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/round.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/round.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/s.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/s.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/s2.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/s2.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/start.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/start.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/start2.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/start2.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/tank.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/tank.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/tanker.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/tanker.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/test.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/test.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/two.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/two.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/two2.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/two2.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/u.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/u.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/up-down.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/up-down.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/wall.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/wall.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/wall2.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/wall2.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/walls.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/walls.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/watch.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/watch.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/waterball.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/waterball.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/waterpool.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/waterpool.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/wave.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/wave.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/wpipe.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/all/wpipe.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/barrier.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/barrier.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/block.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/block.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/bulk.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/bulk.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/bulk3.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/bulk3.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/cunami.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/cunami.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/cunami2.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/cunami2.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/damb.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/damb.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/down.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/down.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/e.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/e.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/ee.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/ee.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/emptysmall.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/emptysmall.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/flats.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/flats.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/fly.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/fly.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/go.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/go.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/grav.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/grav.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/height.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/height.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/middle.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/middle.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/penek.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/penek.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/r1.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/r1.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/s.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/s.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/s2.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/s2.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/start.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/start.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/test1.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/test1.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/testO.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/testO.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/testS.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/testS.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/testW.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/testW.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/two.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/two.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/two2.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/two2.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/up-down.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/up-down.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/walls.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/walls.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/water.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/water.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/wave.geo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demos/wave.par" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docs/Kalland_Master.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docs/[Robert_Bridson]_Fluid_simulation_for_computer_gra(BookFi) (1).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fluid2D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GraublauWeb.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scene.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake_modules/FindSFML.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-release/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-45383753">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="43" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="43" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cmake" value="1" />
+          <entry key="in" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="287285056">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.129" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.54" value="2" />
+          <entry key="project.open.time.59" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.60" value="2" />
+          <entry key="project.open.time.67" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.open.time.95" value="1" />
+          <entry key="project.opened" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="7695" />
+          <entry key="txt" value="56" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="56" />
+          <entry key="ObjectiveC" value="7695" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Build All (disassembly)" value="10" />
+          <entry key="Release (disassembly)" value="1" />
+          <entry key="cpp" value="6" />
+          <entry key="h" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Disassembly" value="11" />
+          <entry key="ObjectiveC" value="8" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="183" column="9" selection-start-line="183" selection-start-column="9" selection-end-line="183" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Scene.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="378" column="17" selection-start-line="378" selection-start-column="17" selection-end-line="378" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fluid2D.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="837" column="16" selection-start-line="837" selection-start-column="16" selection-end-line="837" selection-end-column="40" />
+              <folding>
+                <element signature="e#41#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fluid</find>
+      <find>CALCFLAG</find>
+      <find>READ_PARAMETER</find>
+      <find>fluidcell</find>
+      <find>InputFile</find>
+      <find>geolines</find>
+      <find>setFlagFluid</find>
+      <find>&lt;&lt;</find>
+      <find>MARK</find>
+      <find>dh</find>
+      <find>vectorscale</find>
+      <find>GX</find>
+      <find>stream</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Render.cpp" />
+        <option value="$PROJECT_DIR$/Nanotimer.cpp" />
+        <option value="$PROJECT_DIR$/Sceneparam.cpp" />
+        <option value="$PROJECT_DIR$/TimeUtil.cpp" />
+        <option value="$PROJECT_DIR$/Fluid2D.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Scene.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="4" />
+    <option name="y" value="159" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FluidDynamics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluidDynamics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluidDynamics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/Apps/Git/bin/git.exe" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Release">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FluidDynamics" RUN_TARGET_NAME="FluidDynamics" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FluidDynamics" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FluidDynamics" TARGET_NAME="FluidDynamics" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FluidDynamics" RUN_TARGET_NAME="FluidDynamics">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Release" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FluidDynamics" TARGET_NAME="FluidDynamics" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FluidDynamics" RUN_TARGET_NAME="FluidDynamics">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Release" />
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.FluidDynamics" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3307216-6271-4baf-90cd-32b5c674cc90" name="Default Changelist" comment="" />
+      <created>1542702452202</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542702452202</updated>
+      <workItem from="1542702456170" duration="3180000" />
+      <workItem from="1542706698964" duration="1663000" />
+      <workItem from="1542710234468" duration="1503000" />
+      <workItem from="1542712917097" duration="2073000" />
+      <workItem from="1542751999488" duration="8378000" />
+      <workItem from="1542766865538" duration="4095000" />
+      <workItem from="1542773698377" duration="7425000" />
+      <workItem from="1542788768431" duration="1820000" />
+      <workItem from="1542830617350" duration="17876000" />
+      <workItem from="1542871349778" duration="8707000" />
+      <workItem from="1542881854527" duration="1435000" />
+      <workItem from="1542958722735" duration="642000" />
+      <workItem from="1542968622905" duration="974000" />
+      <workItem from="1543470689655" duration="1441000" />
+      <workItem from="1554795741384" duration="1770000" />
+      <workItem from="1554808983398" duration="2803000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="65785000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18078668" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39770868" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.36006546" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18078668" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39770868" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="11" visible="true" weight="0.36006546" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Desktop/SFML-master/cmake/SFMLConfig.cmake.in" />
+    <entry file="file://$USER_HOME$/Desktop/SFML-master/cmake/Config.cmake" />
+    <entry file="file://$PROJECT_DIR$/Render.cpp" />
+    <entry file="file://$PROJECT_DIR$/Nanotimer.cpp" />
+    <entry file="file://$PROJECT_DIR$/Sceneparam.cpp" />
+    <entry file="file://$PROJECT_DIR$/TimeUtil.cpp" />
+    <entry file="file://C:/Program Files (x86)/mingw-w64/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/ios_base.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/mingw-w64/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/postypes.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="183" column="9" selection-start-line="183" selection-start-column="9" selection-end-line="183" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fluid2D.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="837" column="16" selection-start-line="837" selection-start-column="16" selection-end-line="837" selection-end-column="40" />
+          <folding>
+            <element signature="e#41#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scene.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="378" column="17" selection-start-line="378" selection-start-column="17" selection-end-line="378" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
